@@ -11,7 +11,7 @@ microk8s-addons:
         - s390x
 
     - name: "rbac"
-      description: "Role-Based Access Control for authorisation"
+      description: "Role-Based Access Control for authorization"
       version: ""
       check_status: "clusterrole.rbac.authorization.k8s.io/cluster-admin"
       supported_architectures:
